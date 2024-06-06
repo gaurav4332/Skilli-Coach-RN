@@ -1,0 +1,68 @@
+import React from 'react';
+import {
+  View,
+  Text,
+  StyleSheet,
+  Image,
+  TouchableOpacity,
+  Alert,
+} from 'react-native';
+
+import {hp, wp} from '../../helper/constants';
+import {icons} from '../../helper/iconConstants';
+import {colors, fontFamily, fontSize} from '../../helper/utils';
+
+const Header = ({
+  title,
+  onPressBack,
+  titleText,
+  rightContainer,
+  onPressRightBtn,
+}: any) => (
+  <View style={styles.header}>
+    <TouchableOpacity onPress={onPressBack} style={styles.menuContainer}>
+      <Image
+        source={icons.backArrowRed}
+        resizeMode={'contain'}
+        style={styles.menuIcon}
+      />
+    </TouchableOpacity>
+    <Text style={[styles.userNameText, titleText]}>{title}</Text>
+    <TouchableOpacity
+      onPress={onPressRightBtn}
+      style={[styles.menuContainer, rightContainer]}>
+      <Image
+        source={icons.drawerIcon}
+        resizeMode={'contain'}
+        style={styles.menuIcon}
+      />
+    </TouchableOpacity>
+  </View>
+);
+
+const styles = StyleSheet.create({
+  header: {
+    marginTop: hp(1),
+    alignItems: 'center',
+    flexDirection: 'row',
+    marginHorizontal: wp(3.5),
+    justifyContent: 'space-between',
+  },
+  menuContainer: {
+    width: wp(10.67),
+    height: wp(10.67),
+    borderRadius: wp(100),
+    justifyContent: 'center',
+  },
+  menuIcon: {
+    width: wp(5.33),
+    height: wp(5.33),
+  },
+  userNameText: {
+    color: colors.backgroundRed,
+    fontSize: fontSize(24),
+    fontFamily: fontFamily.bold,
+  },
+});
+
+export default Header;

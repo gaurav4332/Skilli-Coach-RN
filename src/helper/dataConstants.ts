@@ -1,0 +1,721 @@
+import {icons} from './iconConstants';
+
+export const dataGender = [
+  {label: 'Male', value: 'Male'},
+  {label: 'Female', value: 'Female'},
+  {label: 'Other', value: 'Other'},
+];
+
+export const dataDuretion = [
+  {label: 'month', value: 'month'},
+  {label: 'year', value: 'year'},
+];
+
+export const dataDummyPdf = [
+  {
+    id: 1,
+    pdfUrl:
+      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf',
+  },
+  {
+    id: 2,
+    pdfUrl:
+      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf',
+  },
+  {
+    id: 3,
+    pdfUrl:
+      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf',
+  },
+  {
+    id: 4,
+    pdfUrl:
+      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf',
+  },
+  {
+    id: 5,
+    pdfUrl:
+      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf',
+  },
+];
+
+export const dataLanguages = [
+  'Albanian',
+  'Amharic',
+  'Arabic',
+  'Armenian',
+  'Aymara',
+  'Azerbaijani',
+  'Basque',
+  'Belarusian',
+  'Bengali',
+  'Belizean Creole',
+  'Bislama',
+  'Bosnian',
+  'Bulgarian',
+  'Burmese',
+  'Catalan',
+  'Chamorro',
+  'Chewa',
+  'Chinese',
+  'Chibarwe',
+  'Comorian',
+  'Cook Islands Māori',
+  'Croatian',
+  'Czech',
+  'Danish',
+  'Dari',
+  'Dutch',
+  'Dzongkha',
+  'English',
+  'Estonian',
+  'Faroese',
+  'Fijian',
+  'Filipino',
+  'Finnish',
+  'French',
+  'Galician',
+  'Georgian',
+  'German',
+  'Gilbertese',
+  'Greek',
+  'Greenlandic',
+  'Guaraní',
+  'Guernésiais',
+  'Haitian Creole',
+  'Hassaniya',
+  'Hebrew',
+  'Herero',
+  'Hindi',
+  'Hiri Motu',
+  'Hungarian',
+  'Icelandic',
+  'Indonesian',
+  'Irish',
+  'Italian',
+  'Jamaican Patois',
+  'Japanese',
+  'Jèrriais',
+  'Kazakh',
+  'Khmer',
+  'Kikongo',
+  'Kinyarwanda',
+  'Kirundi',
+  'Khoekhoe',
+  'Khoisan',
+  'Korean',
+  'Krio',
+  'Kwangali',
+  'Kyrgyz',
+  'Lao',
+  'Latin',
+  'Latvian',
+  'Lingala',
+  'Lithuanian',
+  'Lozi',
+  'Luxembourgish',
+  'Macedonian',
+  'Malagasy',
+  'Malay',
+  'Maldivian',
+  'Maltese',
+  'Manx',
+  'Marshallese',
+  'Mauritian Creole',
+  'Mongolian',
+  'Montenegrin',
+  'Nauru',
+  'Nepali',
+  'New Zealand Sign Language',
+  'Niuean',
+  'Norfuk',
+  'Norwegian',
+  'Nynorsk',
+  'Bokmål',
+  'Persian (Farsi)',
+  'Papiamento',
+  'Pashto',
+  'Polish',
+  'Portuguese',
+  'Quechua',
+  'Romanian',
+  'Romansh',
+  'Russian',
+  'Samoan',
+  'Sango',
+  'Seychellois Creole',
+  'Shona',
+  'Sinhala',
+  'Slovak',
+  'Slovene',
+  'Sotho',
+  'Southern Ndebele',
+  'Spanish',
+  'Swedish',
+  'Swahili',
+  'Swiss German',
+  'Tajik',
+  'Tamil',
+  'Tetum',
+  'Thai',
+  'Tigrinya',
+  'Tonga',
+  'Tok Pisin',
+  'Tokelauan',
+  'Tongan',
+  'Tshiluba',
+  'Tsonga',
+  'Turkmen',
+  'Turkish',
+  'Tuvaluan',
+  'Ukrainian',
+  'Urdu',
+  'Uzbek',
+  'Venda',
+  'Vietnamese',
+  'Welsh',
+  'Xhosa',
+  'Yoruba',
+  'Zulu',
+  'Zimbabwean',
+];
+export const dataTypeOfCoaching = [
+  {
+    value: '1',
+    label: 'Volleyball',
+  },
+  {
+    value: '2',
+    label: 'Swimming',
+  },
+  {
+    value: '3',
+    label: 'Cricket',
+  },
+];
+export const dataTopUpVideo = [
+  {
+    id: '1',
+    name: 'Mick Brown',
+    coachType: 'Surf Expert',
+    topUpPoint: '200',
+    videoLink: 'https://www.pexels.com/download/video/4782485/',
+    feedBackStatus: true,
+    isPaused: true,
+    poster: 'https://i.imgur.com/yqXsrKF.png',
+  },
+  {
+    id: '2',
+    name: 'Jack Jones',
+    coachType: 'Surf Expert',
+    topUpPoint: '50',
+    videoLink: 'https://www.pexels.com/download/video/4782485/',
+    feedBackStatus: true,
+    isPaused: true,
+    poster: 'https://i.imgur.com/edR1IIr.png',
+  },
+  {
+    id: '3',
+    name: 'Mick Brown',
+    coachType: 'Surf Expert',
+    topUpPoint: '200',
+    videoLink: 'https://www.pexels.com/download/video/4782485/',
+    feedBackStatus: true,
+    isPaused: true,
+    poster: 'https://i.imgur.com/edR1IIr.png',
+  },
+  {
+    id: '4',
+    name: 'Mick Brown',
+    coachType: 'Surf Expert',
+    topUpPoint: '50',
+    videoLink: 'https://www.pexels.com/download/video/4782485/',
+    feedBackStatus: true,
+    isPaused: true,
+    poster: 'https://i.imgur.com/edR1IIr.png',
+  },
+  {
+    id: '5',
+    name: 'Mick Brown',
+    coachType: 'Surf Expert',
+    topUpPoint: '200',
+    videoLink: 'https://www.pexels.com/download/video/4782485/',
+    feedBackStatus: false,
+    isPaused: true,
+    poster: 'https://i.imgur.com/edR1IIr.png',
+  },
+  {
+    id: '6',
+    name: 'Mick Brown',
+    coachType: 'Surf Expert',
+    topUpPoint: '50',
+    videoLink: 'https://www.pexels.com/download/video/4782485/',
+    feedBackStatus: true,
+    poster: 'https://i.imgur.com/edR1IIr.png',
+  },
+];
+
+export const dataTopUpCompletedVideo = [
+  {
+    id: '1',
+    name: 'Henry Taylor',
+    coachType: 'Surf Expert',
+    topUpPoint: '200',
+    videoLink: 'https://www.pexels.com/download/video/4782485/',
+    feedBackStatus: false,
+    isPaused: true,
+    poster: 'https://i.imgur.com/yqXsrKF.png',
+  },
+  {
+    id: '2',
+    name: 'Luke Williams',
+    coachType: 'Surf Expert',
+    topUpPoint: '50',
+    videoLink: 'https://www.pexels.com/download/video/4782485/',
+    feedBackStatus: false,
+    isPaused: true,
+    poster: 'https://i.imgur.com/edR1IIr.png',
+  },
+  {
+    id: '3',
+    name: 'Jack Jones',
+    coachType: 'Surf Expert',
+    topUpPoint: '200',
+    videoLink: 'https://www.pexels.com/download/video/4782485/',
+    feedBackStatus: false,
+    isPaused: true,
+    poster: 'https://i.imgur.com/edR1IIr.png',
+  },
+  {
+    id: '4',
+    name: 'Mick Brown',
+    coachType: 'Surf Expert',
+    topUpPoint: '50',
+    videoLink: 'https://www.pexels.com/download/video/4782485/',
+    feedBackStatus: false,
+    isPaused: true,
+    poster: 'https://i.imgur.com/yqXsrKF.png',
+  },
+  {
+    id: '5',
+    name: 'Mick Brown',
+    coachType: 'Surf Expert',
+    topUpPoint: '200',
+    videoLink: 'https://www.pexels.com/download/video/4782485/',
+    feedBackStatus: false,
+    isPaused: true,
+    poster: 'https://i.imgur.com/yqXsrKF.png',
+  },
+  {
+    id: '6',
+    name: 'Henry Taylor',
+    coachType: 'Surf Expert',
+    topUpPoint: '50',
+    videoLink: 'https://www.pexels.com/download/video/4782485/',
+    feedBackStatus: false,
+    poster: 'https://i.imgur.com/edR1IIr.png',
+  },
+];
+
+export const skilliCreditsVideo = [
+  {
+    id: '1',
+    name: 'Mick Brown',
+    coachType: 'Take Off Coaching',
+    topUpPoint: '200',
+    videoLink: 'https://www.pexels.com/download/video/4927323/',
+    feedBackStatus: true,
+    isPaused: true,
+    poster: 'https://i.imgur.com/yqXsrKF.png',
+  },
+  {
+    id: '2',
+    name: 'Mick Brown',
+    coachType: 'Take Off Coaching',
+    topUpPoint: '100',
+    videoLink: 'https://www.pexels.com/download/video/4782485/',
+    feedBackStatus: true,
+    isPaused: true,
+    poster: 'https://i.imgur.com/auGdP0h.png',
+  },
+];
+
+export const dataHomeVideo = [
+  {
+    id: '1',
+    name: 'Mick Brown',
+    coachType: 'Take Off Coaching',
+    topUpPoint: '200',
+    videoLink: 'https://www.pexels.com/download/video/4927323/',
+    feedBackStatus: true,
+    isPaused: true,
+    poster: 'https://i.imgur.com/yqXsrKF.png',
+  },
+  {
+    id: '2',
+    name: 'Jack Jones',
+    coachType: 'Take Off Coaching',
+    topUpPoint: '100',
+    videoLink: 'https://www.pexels.com/download/video/4782485/',
+    feedBackStatus: true,
+    isPaused: true,
+    poster: 'https://i.imgur.com/auGdP0h.png',
+  },
+  {
+    id: '3',
+    name: 'Henry Taylor',
+    coachType: 'Take Off Coaching',
+    topUpPoint: '70',
+    videoLink: 'https://www.pexels.com/download/video/4927323/',
+    feedBackStatus: true,
+    isPaused: true,
+    poster: 'https://i.imgur.com/vgZIXMI.png',
+  },
+  {
+    id: '4',
+    name: 'Luke Williams',
+    coachType: 'Take Off Coaching',
+    topUpPoint: '50',
+    videoLink: 'https://www.pexels.com/download/video/4782485/',
+    feedBackStatus: true,
+    isPaused: true,
+    poster: 'https://i.imgur.com/yqXsrKF.png',
+  },
+  {
+    id: '5',
+    name: 'Ann Chovey',
+    coachType: 'Take Off Coaching',
+    topUpPoint: '50',
+    videoLink: 'https://www.pexels.com/download/video/4927323/',
+    feedBackStatus: true,
+    isPaused: true,
+    poster: 'https://i.imgur.com/ZJmg6rd.png',
+  },
+  {
+    id: '6',
+    name: 'Leonor Yu',
+    coachType: 'Take Off Coaching',
+    topUpPoint: '100',
+    videoLink: 'https://www.pexels.com/download/video/4782485/',
+    feedBackStatus: true,
+    isPaused: true,
+    poster: 'https://i.imgur.com/XB6ps3Y.png',
+  },
+];
+
+export const dataVideo = [
+  {
+    id: '1',
+    name: 'Mick Brown',
+    coachType: 'Take Off Coaching',
+    topUpPoint: '200',
+    videoLink: 'https://www.pexels.com/download/video/4927323/',
+    feedBackStatus: true,
+    isPaused: true,
+    poster: 'https://i.imgur.com/Y0pYcLR.png',
+  },
+  {
+    id: '2',
+    name: 'Mick Brown',
+    coachType: 'Take Off Coaching',
+    topUpPoint: '100',
+    videoLink: 'https://www.pexels.com/download/video/4782485/',
+    feedBackStatus: true,
+    isPaused: true,
+    poster: 'https://i.imgur.com/ZJmg6rd.png',
+  },
+  {
+    id: '3',
+    name: 'Henry Taylor',
+    coachType: 'Take Off Coaching',
+    topUpPoint: '70',
+    videoLink: 'https://www.pexels.com/download/video/4927323/',
+    feedBackStatus: true,
+    isPaused: true,
+    poster: 'https://i.imgur.com/vgZIXMI.png',
+  },
+  {
+    id: '4',
+    name: 'Luke Williams',
+    coachType: 'Take Off Coaching',
+    topUpPoint: '50',
+    videoLink: 'https://www.pexels.com/download/video/4782485/',
+    feedBackStatus: true,
+    isPaused: true,
+    poster: 'https://i.imgur.com/Y0pYcLR.png',
+  },
+  {
+    id: '5',
+    name: 'Ann Chovey',
+    coachType: 'Take Off Coaching',
+    topUpPoint: '50',
+    videoLink: 'https://www.pexels.com/download/video/4927323/',
+    feedBackStatus: true,
+    isPaused: true,
+    poster: 'https://i.imgur.com/ZJmg6rd.png',
+  },
+  {
+    id: '6',
+    name: 'Leonor Yu',
+    coachType: 'Take Off Coaching',
+    topUpPoint: '100',
+    videoLink: 'https://www.pexels.com/download/video/4782485/',
+    feedBackStatus: true,
+    isPaused: true,
+    poster: 'https://i.imgur.com/XB6ps3Y.png',
+  },
+];
+
+export const dataSkills = [
+  {value: '1', label: 'Soccer (Football)'},
+  {value: '2', label: 'Basketball'},
+  {value: '3', label: 'Tennis'},
+  {value: '4', label: 'Golf'},
+  {value: '5', label: 'Baseball'},
+  {value: '6', label: 'Volleyball '},
+  {value: '7', label: 'Rugby'},
+  {value: '8', label: 'Cricket'},
+  {value: '9', label: 'Swimming'},
+  {value: '10', label: 'Boxing'},
+  {value: '11', label: 'Wrestling'},
+  {value: '12', label: 'Badminton'},
+  {value: '13', label: 'Table Tennis'},
+  {value: '14', label: 'Ice Hockey'},
+  {value: '15', label: 'Skiing'},
+  {value: '16', label: 'Snowboarding'},
+  {value: '17', label: 'Track and Field'},
+  {value: '18', label: 'Gymnastics'},
+  {value: '19', label: 'Archery'},
+  {value: '20', label: 'Cycling'},
+];
+
+export const dataCoach = [
+  {
+    id: '1',
+    coachName: 'Sophie Davis',
+    coachType: 'Surf Coach',
+    label: '“I want to be a pro surfer and that’s what I’m going to do. “',
+    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation',
+    img: icons.recentlyCoach,
+  },
+
+  {
+    id: '2',
+    coachName: 'Alex Smith',
+    coachType: 'Volleyball Coach',
+    label: '“I want to be a pro surfer and that’s what I’m going to do. “',
+    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation',
+    img: icons.temp2,
+  },
+  {
+    id: '3',
+    coachName: 'Erika Mccarthy',
+    coachType: 'Swimming Coach',
+    label: '“I want to be a pro surfer and that’s what I’m going to do. “',
+    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation',
+    img: icons.tempCoach,
+  },
+  // {
+  //   id: '4',
+  //   coachName: 'Alex Smith',
+  //   coachType: 'Surf Coach',
+  //   label: '“I want to be a pro surfer and that’s what I’m going to do. “',
+  //   bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation',
+  //   img: icons.temp3,
+  // },
+];
+export const dataResentlyViewd = [
+  {
+    id: '4',
+    coachName: 'Sophie Davis',
+    coachType: 'Surf Coach',
+    label: '“I want to be a pro surfer and that’s what I’m going to do. “',
+    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation',
+    img: icons.recentlyCoach,
+  },
+
+  {
+    id: '5',
+    coachName: 'Alex Smith',
+    coachType: 'Volleyball Coach',
+    label: '“I want to be a pro surfer and that’s what I’m going to do. “',
+    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation',
+    img: icons.recentlyCoach2,
+  },
+  {
+    id: '6',
+    coachName: 'Sophie Davis',
+    coachType: 'Surf Coach',
+    label: '“I want to be a pro surfer and that’s what I’m going to do. “',
+    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation',
+    img: icons.recentlyCoach,
+  },
+  {
+    id: '7',
+    coachName: 'Alex Smith',
+    coachType: 'Surf Coach',
+    label: '“I want to be a pro surfer and that’s what I’m going to do. “',
+    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation',
+    img: icons.recentlyCoach2,
+  },
+];
+
+export const dataYourCoach = [
+  {
+    id: '8',
+    coachName: 'Sophie Davis',
+    coachType: 'Surf Coach',
+    label: '“I want to be a pro surfer and that’s what I’m going to do. “',
+    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation',
+    img: icons.temp3,
+  },
+
+  {
+    id: '9',
+    coachName: 'Leonor Yu',
+    coachType: 'Volleyball Coach',
+    label: '“I want to be a pro surfer and that’s what I’m going to do. “',
+    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation',
+    img: icons.tempCoach1,
+  },
+  {
+    id: '10',
+    coachName: 'Erika Mccarthy',
+    coachType: 'Swimming Coach',
+    label: '“I want to be a pro surfer and that’s what I’m going to do. “',
+    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation',
+    img: icons.temp2,
+  },
+  {
+    id: '11',
+    coachName: 'Sophie Davis',
+    coachType: 'Surf Coach',
+    label: '“I want to be a pro surfer and that’s what I’m going to do. “',
+    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation',
+    img: icons.temp3,
+  },
+];
+
+export const dataPricSkilliCredits = [
+  {
+    id: '1',
+    price: 'AUD $20',
+    skilliPoints: '20',
+  },
+
+  {
+    id: '2',
+    price: 'AUD $50',
+    skilliPoints: '50',
+  },
+  {
+    id: '3',
+    price: 'AUD $100',
+    skilliPoints: '100',
+  },
+];
+
+export const dataVideoList = [
+  {
+    id: '1',
+    url: 'https://www.pexels.com/video/golf-golfer-golf-club-golf-course-4128811/',
+  },
+  {
+    id: '2',
+    url: 'https://www.pexels.com/video/young-student-athletes-practicing-the-skill-of-archery-3069112/',
+  },
+  {
+    id: '3',
+    url: 'https://www.pexels.com/video/a-woman-with-good-flexibility-stretching-outdoors-on-grassy-lawn-2790143/',
+  },
+  {
+    id: '4',
+    url: 'https://www.pexels.com/video/a-man-putting-on-a-boxing-gloves-4806567/',
+  },
+];
+
+export const dataNotification = [
+  {
+    id: '1',
+    notification: 'You have a New Coaching Session Request',
+  },
+  {
+    id: '2',
+    notification: 'You have a New Coaching Session Request',
+  },
+  {
+    id: '3',
+    notification: 'You have a New Coaching Session Request',
+  },
+  {
+    id: '4',
+    notification: 'You have a New Coaching Session Request',
+  },
+  {
+    id: '5',
+    notification: 'You have a New Coaching Session Request',
+  },
+  {
+    id: '6',
+    notification: 'You have a New Coaching Session Request',
+  },
+  {
+    id: '7',
+    notification: 'You have a New Coaching Session Request',
+  },
+  {
+    id: '8',
+    notification: 'You have a New Coaching Session Request',
+  },
+  {
+    id: '9',
+    notification: 'You have a New Coaching Session Request',
+  },
+];
+
+export const faqData = [
+  {
+    title: 'How do I request Feedback from my Favourite Coach?',
+    content:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.',
+  },
+  {
+    title: 'How do I request Feedback from my Favourite Coach?',
+    content:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.',
+  },
+  {
+    title: 'How do I request Feedback from my Favourite Coach?',
+    content:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.',
+  },
+  {
+    title: 'How do I request Feedback from my Favourite Coach?',
+    content:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.',
+  },
+  {
+    title: 'How do I request Feedback from my Favourite Coach?',
+    content:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.',
+  },
+  {
+    title: 'How do I request Feedback from my Favourite Coach?',
+    content:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.',
+  },
+
+  {
+    title: 'How do I request Feedback from my Favourite Coach?',
+    content:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.',
+  },
+  {
+    title: 'How do I request Feedback from my Favourite Coach?',
+    content:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.',
+  },
+];
+
+export const bioText =
+  'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation';

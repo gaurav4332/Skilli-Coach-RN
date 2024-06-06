@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "58548467966",
+    "project_id": "skilli-coach-8c578",
+    "storage_bucket": "skilli-coach-8c578.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58548467966:android:b2f80dbd12b04de6a28daf",
+        "android_client_info": {
+          "package_name": "com.skilli.coach"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPLSjanb6Pv3ldJp1vFS-JlU_y6xrx9xU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58548467966:android:ea9ddc95cb84c30ca28daf",
+        "android_client_info": {
+          "package_name": "com.skilli.student"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPLSjanb6Pv3ldJp1vFS-JlU_y6xrx9xU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
