@@ -6,7 +6,7 @@ import {applyMiddleware, createStore} from 'redux';
 import appReducer from './src/reducers';
 import thunk from 'redux-thunk';
 import {Provider} from 'react-redux';
-import AsyncStorage from '@react-native-community/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import {persistReducer, persistStore} from 'redux-persist';
 import {PersistGate} from 'redux-persist/integration/react';
 import {NavigationContainer} from '@react-navigation/native';

@@ -19,7 +19,7 @@ import {IS_LOGIN, SET_CERTIFICATES_DATA, SIGNUP} from '../../../action/types';
 import {signUpWithEmailPassword} from '../../../action/AuthAction';
 
 import Spinner from 'react-native-loading-spinner-overlay';
-import AsyncStorage from '@react-native-community/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import {colors, fontSize} from '../../../helper/utils';
 
 export default function UploadFiles({navigation}: any) {

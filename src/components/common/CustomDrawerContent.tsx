@@ -16,7 +16,7 @@ import {hp, wp} from '../../helper/constants';
 import {icons} from '../../helper/iconConstants';
 import {colors, fontFamily, fontSize} from '../../helper/utils';
 
-import AsyncStorage from '@react-native-community/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import {useDispatch, useSelector} from 'react-redux';
 import {
   GET_ALL_SPOKEN_LANGUAGES,
